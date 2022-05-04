@@ -18,15 +18,15 @@ Italo M Bampi
 
 Não existem tipos primitivos no Ruby. Todos os tipos são classes.
 
-- Integer			( 6 )
+- Integer	( 6 )
 
-- Float				( 6.1 )
+- Float		( 6.1 )
 
-- String 		( “s” ‘s’ )
+- String 	( “s” ‘s’ )
 
 - Symbol 	( :nome )
 
-- Array 		( [4, 'azul', :termômetro] )
+- Array 	( [4, 'azul', :termômetro] )
 
 - Hash 		( {2 => 'user', :action => 'index’} )
 
@@ -64,7 +64,7 @@ Não existem tipos primitivos no Ruby. Todos os tipos são classes.
 - Rbenv (Controlador de versões do Ruby)
 	- git  clone https://github.com/rbenv/rbenv.git ~/.rbenv
 
-	- echo 'export PATH="$$$HOME/.rbenv/bin:$$$PATH"' >> ~/.bashrc
+	- echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
 
 	- echo 'eval "$(rbenv  init -)"' >> ~/.bashrc
 
@@ -74,7 +74,7 @@ Não existem tipos primitivos no Ruby. Todos os tipos são classes.
 
 	- git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
 
-	- echo 'export PATH="$$$HOME/.rbenv/plugins/ruby-build/bin:$$$PATH"' >> ~/.bashrc
+	- echo 'export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"' >> ~/.bashrc
 
 	- exec $SHELL
 -  Utilize o Rbenv para instalar o Ruby
